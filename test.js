@@ -59,11 +59,11 @@
     };
 
     Asteroids.prototype.preload = function() {
-      game.load.image('test', 'res/b_Leaderboard.png');
+      game.load.image('logo', 'res/logo.png');
     };
 
     Asteroids.prototype.create = function() {
-      game.add.sprite(this.width/2, this.height/2, 'test');
+      game.add.sprite(this.width/2, this.height/2, 'logo');
     };
 
     Asteroids.prototype.update = function() {
