@@ -67,8 +67,9 @@
     };
 
     Asteroids.prototype.update = function() {
-      this.stats.begin();
-      this.stats.end();
+        this.stats.begin();
+        console.log(game.time.elapsed);
+        this.stats.end();
     };
 
     return Asteroids;
